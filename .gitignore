@@ -26,3 +26,7 @@ models/**
 .DS_Store
 Thumbs.db
 .vscode/
+
+# dataset kecil (224 px) untuk tim, ikut di-commit
+!data/processed/rice_256/
+!data/processed/rice_256/**
