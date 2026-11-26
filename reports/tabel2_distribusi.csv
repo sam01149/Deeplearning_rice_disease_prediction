@@ -1,0 +1,8 @@
+label,Train,Validasi,Uji,Total
+Bacterial Leaf Blight,205,14,13,232
+Brown Spot,223,23,22,268
+Healthy Rice Leaf,345,29,32,406
+Leaf Blast,149,18,16,183
+Leaf scald,156,12,11,179
+Sheath Blight,357,44,43,444
+Total,1435,140,137,1712
