@@ -1,0 +1,54 @@
+{
+  "model": "cnn_baseline",
+  "img_size": 224,
+  "filters": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "dense_units": 128,
+  "dropout": 0.5,
+  "bn_momentum": 0.9,
+  "l2": 0.0001,
+  "optimizer": "adam",
+  "learning_rate": 0.0003,
+  "batch_size": 32,
+  "epochs": 100,
+  "early_stopping_patience": 20,
+  "reduce_lr_patience": 3,
+  "reduce_lr_factor": 0.5,
+  "monitor": "val_loss",
+  "augment": true,
+  "class_weight": true,
+  "seed": 2024,
+  "tag": "cnn_baseline_seed2024",
+  "class_names": [
+    "Bacterial Leaf Blight",
+    "Brown Spot",
+    "Healthy Rice Leaf",
+    "Leaf Blast",
+    "Leaf scald",
+    "Sheath Blight"
+  ],
+  "class_weight_values": {
+    "0": 1.1666666666666667,
+    "1": 1.0724962630792227,
+    "2": 0.6932367149758454,
+    "3": 1.6051454138702461,
+    "4": 1.5331196581196582,
+    "5": 0.6699346405228758
+  },
+  "n_params": 1208806,
+  "epochs_run": 35,
+  "best_epoch": 15,
+  "val_loss": 1.0449379682540894,
+  "val_accuracy": 0.6499999761581421,
+  "model_path": "models/cnn_baseline_seed2024.keras",
+  "versions": {
+    "python": "3.13.16",
+    "tensorflow": "2.21.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3"
+  }
+}
